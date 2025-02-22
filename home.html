@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+        SuvaiExpress
+      </title>
+      <link rel="icon" href="https://th.bing.com/th/id/OIP.DJXkSF9B--LYE8SM7M8yCAHaHa?rs=1&pid=ImgDetMain"
+        />
+        <link
+
+      rel="stylesheet"
+
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+
+      crossorigin="anonymous"
+
+    />
+
+    <script
+
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+    <script
+
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+    <script
+
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+
+      crossorigin="anonymous"
+
+    ></script>
+      <title></title>
+    </head>
+    <style>
+        .home{
+            background-image: url("https://img.freepik.com/free-psd/3d-rendering-korean-food-blank-banner_23-2151456845.jpg?t=st=1740245874~exp=1740249474~hmac=5512893b62f0c2d03e0c5170793f13682ec5d56ac53a4c710a067c5d805b6c2e&w=1380") ;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            border-style: dotted;
+            border-color: aliceblue;
+            border-radius: 10px;
+            background-color: aliceblue;
+        }
+        .home1{
+            color: aliceblue;
+            text-align: center;
+            border-style:solid ;
+            border-radius: 20px;
+            border-color: gray;
+            background-color: transparent;
+            color: black;
+            width: 45%;
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            border-width: 1px;
+          
+        }
+        .menu-button{
+            background-color: rgb(221, 239, 173);
+            border-radius: 20px;
+            font-family: "";
+        }
+
+        .home-logo{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-left: 10px;
+          
+        }
+
+        .navbar {
+          display: flex;
+          justify-content: flex-end; 
+          align-items: center;
+          padding: 10px 20px;
+          width: 100%;
+          color: white;
+          background-color: black; 
+        }
+        .navbar-logo {
+          margin-right: auto; 
+        }
+        .navbar-menu {
+          display: flex;
+          gap: 15px;
+          align-items: center;
+        }
+
+
+        .search-box input {
+          padding: 5px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+        .nav-link{
+          color: aliceblue;
+        }
+
+        .food-title{
+          font-family: fantasy;
+        }
+  
+    </style>
+    <body>
+      <div class="d-flex flex-row ml-auto">
+
+        
+        <nav class="navbar navbar-expand-lg navbar-white bg-dark">
+          <div class="container-fluid">
+              <!-- Logo -->
+              <a class="navbar-brand" href="#">
+                <img class="home-logo" src="https://th.bing.com/th/id/OIP.DJXkSF9B--LYE8SM7M8yCAHaHa?rs=1&pid=ImgDetMain"></a>
+      
+              <!-- Search Bar -->
+              <form class="form-inline ml-auto">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+      
+              <!-- Navbar Toggle Button -->
+              <button class="navbar-toggler ml-3 bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNav">
+                  ☰
+              </button>
+      
+              <!-- Navbar Links -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                      
+                      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      
+      
+    </div>
+       
+   
+        <div class="home  d-flex flex-column justify-content-center">
+            <div class="home1 shadow">
+                  <h1>Welcome to  </h1>
+                  <h6 class="food-title ">Suvai Express</h6>
+
+                  <div class="button ">
+                    <button onclick="location.href='menu.html'" class="btn menu-button"> Menu Items </button></button>
+                  </div>   
+            </div>
+        </div>
+      </body>
+</html>
